@@ -47,7 +47,7 @@ public struct Turtle {
      - Parameter initialPos: the initial position of the turtle.
      - Parameter initialAngle: the initial angle of the turtle.
      */
-    init(initialLength: Double = 0,
+    public init(initialLength: Double = 0,
          initialPos: Coordinate = Coordinate(0, 0),
          initialAngle: Double = .pi/2,
          angle: Double = 0,
