@@ -3,7 +3,12 @@
 Lindenmayer2DSwift is a swift framework that generates trees and other fractal structures using L-Systems.
 
 ## Examples
-
+<p align="left">
+  <img src="https://github.com/TateLiang/Lindenmayer2DSwift/blob/master/Images/tree2.png" width="400">
+  <img src="https://github.com/TateLiang/Lindenmayer2DSwift/blob/master/Images/tree1.png" width="400">
+  <img src="https://github.com/TateLiang/Lindenmayer2DSwift/blob/master/Images/tree5.png" width="400">
+  <img src="https://github.com/TateLiang/Lindenmayer2DSwift/blob/master/Images/tree3.png" width="400">
+</p>
 
 ## Installation
 
