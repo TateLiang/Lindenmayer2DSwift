@@ -118,4 +118,32 @@ public struct Library {
             "F": "FF"
         ])
     )
+    
+    static let tree10 = Library.Tree(
+        angle: 25.7,
+        
+        LSystem("X", [
+            "X": "F+[-F-XF-X][+FF][--XF[+X]][++F-X]",
+            "F": "FF"
+        ])
+    )
+    
+    static let tree11 = Library.Tree(
+        angle: 15,
+        
+        LSystem("X", [
+            "X": "FF[+XZ++X-F[+ZX]][-X++F-X]",
+            "F": "FX[FX[+XF]]",
+            "Z": "[+F-X-F][++ZX]"
+        ])
+    )
+    
+    static let tree12 = Library.Tree(
+        angle: 10,
+        
+        LSystem("X", [
+            "X": "-F[+F][---X]+F-F[++++X]-X",
+            "F": "FF"
+        ])
+    )
 }
